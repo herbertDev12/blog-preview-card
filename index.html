@@ -1,34 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Blog preview card</title>
 
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <link rel="stylesheet" href="style.css" type="text/CSS" />
+  </head>
+  <div class="container">
+    <div class="card">
+      <div class="card-content">
+        <div class="image-container">
+          <img
+            src="assets/images/illustration-article.svg"
+            alt="Card image"
+            class="card-img"
+          />
+        </div>
+        <div class="tag-container">
+          <p class="tag-text">Learning</p>
+        </div>
+        <div class="publicationDate-container">
+          <p class="publicationDate-text">Published 28 Jul 2025</p>
+        </div>
+        <div class="title-container">
+          <p class="title-text">HTML & CSS foundations</p>
+        </div>
+        <div class="description-container">
+          <p class="description-text">
+            These languages are the backbone of every website, defining
+            structure, content and presentation
+          </p>
+        </div>
+        <div class="author-container">
+          <img
+            src="assets/images/image-avatar.webp"
+            alt="Author image"
+            class="author-img"
+          />
+          <p class="author-name">Greg Hooper</p>
+        </div>
+      </div>
+    </div>
   </div>
-</body>
 </html>
