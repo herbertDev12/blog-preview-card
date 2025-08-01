@@ -78,4 +78,17 @@ img{
 
 .publicationDate-text{
     font-weight: 100;
+    font-size: 14px; 
+}
+
+.title-container{
+    display: flex;
+    margin-left: 5%;
+}
+
+.title-text{
+    margin: 0;
+    padding: 0;
+    font-size: 23px; 
+    font-weight: bold;
 }
